@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  .img-avt {
+    display: none;
+  }
+  .navbar {
+    height: auto;
+    display: block;
+  }
+  .navbar a {
+    border-left: none;
+    text-align: left;
+  }
+
+  .nav {
+    display: block;
+    padding: 10px;
+  }
+  /* thong tin - muc tieu*/
+  .info-target {
+    grid-template-columns: 1fr;
+  }
+  /* ccgt */
+  .div-ccgt {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .time-ccgt1 {
+    grid-template-columns: 1fr;
+  }
+
+  .time-ccgt2 {
+    grid-template-columns: 1fr;
+  }
+
+  .time-ccgt3 {
+    grid-template-columns: 1fr;
+  }
+  .time-ccgt4 {
+    padding-top: 20px;
+    border-left: 0;
+    border-top: 1px solid #412;
+  }
+  .img-ccgt {
+    width: 90%;
+  }
+  .img-ccgt3 {
+    width: 90%;
+  }
+  /* Du an */
+  .content-project {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
